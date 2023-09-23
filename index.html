@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0, shrink-to-fit=no;">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-6">
+        <a href="logo" class="logo">Jobbörse.at</a>
+        <h1 class="main-title">Karrierechancen ohne Limit!</h1>
+        <h2 class="second-title">Entdecke Tausende von Stellenangeboten aus verschiedenen Branchen und Unternehmen in ganz Österreich.<br>Von Einsteigerpositionen bis hin zu Führungsrollen – wir haben den passenden Job für dich.</h2>
+        </div>
+    </div>
+      <div class="search">
+        <div class="icon">
+            <div class="input">
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section>
+        <div class="search-container">
+            <div class="search-box">
+              <input type="text" id="job-search" placeholder="Beruf">
+            </div>
+        </div>
+            <div class="search-box">
+              <input type="text" id="region-search" placeholder="Region">
+              <button type="button" class="search-button">Suchen</button>
+            </div>
+          </div>
+    </section>
+    <section> 
+        <div class="filter-container">
+        <form id="filter-form">
+            <label for="publish-date">Veröffentlicht seit:</label>
+            <select id="publish-date" name="publish-date" class="filter-select">
+            <option value="24-hours">24 Stunden</option>
+            <option value="3-days">3 Tage</option>
+            <option value="7-days">7 Tage</option>
+            <option value="30-days">30 Tage</option>
+            </select>
+            <label for="employment-type">Anstellungsart</label>
+            <select id_="employment-type" name="employment-type" class="filter-select">
+                <option value="full-time">Vollzeit</option>
+                <option value="part-time">Teilzeit</option>
+                <option value="marginal-employment">Geringfügig</option>
+                <option value="apprenticeship">Lehrstelle</option>
+                <option value="intership">Praktikum</option>
+                <option value="freelance">Freelance</option>
+                <option value="homeoffice">Teilweise-Homeoffice</option>
+            </select>
+            <label for="professional-field">Berufsfeld</label>
+            <select id_="professional-field" name="professional-field" class="filter-select">
+            </select>
+            <label for="salary">Gehalt</label>
+            <select id_="salary" name="salary" class="filter-select">
+            </select>
+            <label for="lang">Sprache</label>
+            <select id_="lang" name="language" class="filter-select">
+            </select>
+            <label for="all-filter">Alle Filter</label>
+            <select id_="all-filter" name="all-filter" class="filter-select">
+            </select>
+            <label for="reset-filter">Filter zurücksetzen</label>
+            <select id_="reset-filter" name="reset-filter" class="filter-select">
+
+
+            </form>
+        </div>
+     
+    </section>
+
+
+</main>
+</body>
+</html>
+
+
+
