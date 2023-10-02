@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 
 <head>
@@ -39,17 +39,20 @@
           </div>
     </section>
     <section> 
+        <div class="outer-container">
         <div class="filter-container">
         <form id="filter-form">
-            <label for="publish-date">Veröffentlicht seit:</label>
-            <select id="publish-date" name="publish-date" class="filter-select">
-            <option value="24-hours">24 Stunden</option>
-            <option value="3-days">3 Tage</option>
-            <option value="7-days">7 Tage</option>
-            <option value="30-days">30 Tage</option>
+            <label class="sr-only" for="publish-date">Veröffentlicht seit:</label>
+            <select id="publish-date" name="publish-date" class="filter-select with-border">
+            <option disabled selected value="">Veröffentlicht seit</option>
+                <option value="24-hours">24 Stunden</option>
+                <option value="3-days">3 Tage</option>
+                <option value="7-days">7 Tage</option>
+                <option value="30-days">30 Tage</option>
             </select>
-            <label for="employment-type">Anstellungsart</label>
-            <select id_="employment-type" name="employment-type" class="filter-select">
+            <label class="sr-only" for="employment-type">Anstellungsart</label>
+            <select id_="employment-type" name="employment-type" class="filter-select with-border">
+            <option disabled selected value="">Anstellungsart</option>
                 <option value="full-time">Vollzeit</option>
                 <option value="part-time">Teilzeit</option>
                 <option value="marginal-employment">Geringfügig</option>
@@ -58,31 +61,30 @@
                 <option value="freelance">Freelance</option>
                 <option value="homeoffice">Teilweise-Homeoffice</option>
             </select>
-            <label for="professional-field">Berufsfeld</label>
-            <select id_="professional-field" name="professional-field" class="filter-select">
+            <label class="sr-only" for="professional-field">Berufsfeld</label>
+            <select id_="professional-field" name="professional-field" class="filter-select with-border">
+            <option disabled selected value="">Berufsfeld</option>
             </select>
-            <label for="salary">Gehalt</label>
-            <select id_="salary" name="salary" class="filter-select">
+            <label class="sr-only" for="salary">Gehalt</label>
+            <select id_="salary" name="salary" class="filter-select with-border">
+            <option disabled selected value="">Gehalt</option>
             </select>
-            <label for="lang">Sprache</label>
-            <select id_="lang" name="language" class="filter-select">
+            <label class="sr-only" for="lang">Sprache</label>
+            <select id_="lang" name="language" class="filter-select with-border">
+            <option disabled selected value="">Sprache</option>
             </select>
-            <label for="all-filter">Alle Filter</label>
-            <select id_="all-filter" name="all-filter" class="filter-select">
-            </select>
-            <label for="reset-filter">Filter zurücksetzen</label>
-            <select id_="reset-filter" name="reset-filter" class="filter-select">
-
-
-            </form>
+               
+        </form>
         </div>
-     
+        </div>
+        </div>
     </section>
 
 
 </main>
 </body>
 </html>
+
 
 
 
